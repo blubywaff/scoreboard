@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "lib": ["ES2020", "DOM"],
+    "target": "ES2015"
+  },
+  "include": ["src/**/*"],
+  "exclude": []
+}

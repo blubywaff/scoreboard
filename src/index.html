@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alex Beamer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="h-screen" style="font-family: Consolas, , monospace;" onload="start()">
+<div class="h-full w-full flex">
+    <div class="h-full bg-black grid flex-grow" id="score-div"></div>
+    <div class="h-full w-16 bg-gray-400 flex flex-col justify-end p-2 gap-4">
+        <button class="text-6xl w-full" onclick="zeroScore();storeScores();">0</button>
+        <button class="text-6xl w-full" onclick="downScore();storeScores();">-</button>
+        <button class="text-6xl w-full aspect-square" onclick="upScore();storeScores();">+</button>
+        <a class="w-full aspect-square mb-8" href="https://github.com/blubywaff">
+            <img class="rounded-full" src="https://avatars.githubusercontent.com/u/45488563?v=4" />
+        </a>
+    </div>
+</div>
+</body>
+</html>
